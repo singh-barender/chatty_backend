@@ -126,6 +126,7 @@ export class ChattyServer {
   }
 
   private socketIOConnections(io: Server): void {
+    // eslint-disable-next-line
     console.log('io', io);
   }
 }
